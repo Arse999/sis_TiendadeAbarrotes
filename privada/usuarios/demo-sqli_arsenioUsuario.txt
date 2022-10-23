@@ -1,0 +1,5 @@
+SELECT *
+					FROM personas p
+					WHERE p.estado <> '0'
+					ORDER BY p.id_persona DESC
+					

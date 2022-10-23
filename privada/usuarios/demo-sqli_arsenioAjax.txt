@@ -1,0 +1,8 @@
+SELECT *
+                            FROM personas
+                            WHERE ap LIKE ?
+                            AND am LIKE ?
+                            AND nombre LIKE ?
+                            AND Ci LIKE ?
+                            AND estado <> '0'
+                            

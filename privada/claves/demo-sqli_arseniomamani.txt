@@ -1,0 +1,5 @@
+SELECT u.clave
+						  FROM usuarios u
+						  WHERE u.usuario1 = ?
+						  AND u.estado <> '0'
+						
